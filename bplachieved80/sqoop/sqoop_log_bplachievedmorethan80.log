@@ -1,0 +1,84 @@
+[acadgild@localhost ~]$ sqoop export --connect jdbc:mysql://localhost/test --table achievedmorethan80 --username root --m 1 --export-dir /flume_data/bplacheived80/part-m-00000 --input-fields-terminated-by '\t'
+Warning: /usr/local/sqoop/../hcatalog does not exist! HCatalog jobs will fail.
+Please set $HCAT_HOME to the root of your HCatalog installation.
+Warning: /usr/local/sqoop/../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+Warning: /usr/local/sqoop/../zookeeper does not exist! Accumulo imports will fail.
+Please set $ZOOKEEPER_HOME to the root of your Zookeeper installation.
+2017-05-31 09:08:07,697 INFO  [main] sqoop.Sqoop: Running Sqoop version: 1.4.5
+2017-05-31 09:08:10,382 INFO  [main] manager.MySQLManager: Preparing to use a MySQL streaming resultset.
+2017-05-31 09:08:10,385 INFO  [main] tool.CodeGenTool: Beginning code generation
+2017-05-31 09:08:13,043 INFO  [main] manager.SqlManager: Executing SQL statement: SELECT t.* FROM `achievedmorethan80` AS t LIMIT 1
+2017-05-31 09:08:13,436 INFO  [main] manager.SqlManager: Executing SQL statement: SELECT t.* FROM `achievedmorethan80` AS t LIMIT 1
+2017-05-31 09:08:13,532 INFO  [main] orm.CompilationManager: HADOOP_MAPRED_HOME is /usr/local/hadoop-2.6.0
+Note: /tmp/sqoop-acadgild/compile/2475db1df52296c1299c756af2794ac8/achievedmorethan80.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2017-05-31 09:08:39,879 INFO  [main] orm.CompilationManager: Writing jar file: /tmp/sqoop-acadgild/compile/2475db1df52296c1299c756af2794ac8/achievedmorethan80.jar
+2017-05-31 09:08:40,024 INFO  [main] mapreduce.ExportJobBase: Beginning export of achievedmorethan80
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hbase/lib/slf4j-log4j12-1.6.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2017-05-31 09:08:44,580 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-31 09:08:44,715 INFO  [main] Configuration.deprecation: mapred.jar is deprecated. Instead, use mapreduce.job.jar
+2017-05-31 09:08:57,576 INFO  [main] Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2017-05-31 09:08:57,670 INFO  [main] Configuration.deprecation: mapred.map.tasks.speculative.execution is deprecated. Instead, use mapreduce.map.speculative
+2017-05-31 09:08:57,680 INFO  [main] Configuration.deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+2017-05-31 09:08:59,731 INFO  [main] client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+2017-05-31 09:09:10,255 INFO  [main] input.FileInputFormat: Total input paths to process : 1
+2017-05-31 09:09:10,276 INFO  [main] input.FileInputFormat: Total input paths to process : 1
+2017-05-31 09:09:10,872 INFO  [main] mapreduce.JobSubmitter: number of splits:1
+2017-05-31 09:09:10,985 INFO  [main] Configuration.deprecation: mapred.job.name is deprecated. Instead, use mapreduce.job.name
+2017-05-31 09:09:10,985 INFO  [main] Configuration.deprecation: mapred.cache.files.timestamps is deprecated. Instead, use mapreduce.job.cache.files.timestamps
+2017-05-31 09:09:10,994 INFO  [main] Configuration.deprecation: mapreduce.map.class is deprecated. Instead, use mapreduce.job.map.class
+2017-05-31 09:09:10,994 INFO  [main] Configuration.deprecation: mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+2017-05-31 09:09:10,995 INFO  [main] Configuration.deprecation: mapred.map.tasks.speculative.execution is deprecated. Instead, use mapreduce.map.speculative
+2017-05-31 09:09:11,002 INFO  [main] Configuration.deprecation: mapreduce.inputformat.class is deprecated. Instead, use mapreduce.job.inputformat.class
+2017-05-31 09:09:11,005 INFO  [main] Configuration.deprecation: mapreduce.outputformat.class is deprecated. Instead, use mapreduce.job.outputformat.class
+2017-05-31 09:09:11,005 INFO  [main] Configuration.deprecation: mapred.cache.files is deprecated. Instead, use mapreduce.job.cache.files
+2017-05-31 09:09:11,006 INFO  [main] Configuration.deprecation: mapred.working.dir is deprecated. Instead, use mapreduce.job.working.dir
+2017-05-31 09:09:11,011 INFO  [main] Configuration.deprecation: mapred.mapoutput.value.class is deprecated. Instead, use mapreduce.map.output.value.class
+2017-05-31 09:09:11,012 INFO  [main] Configuration.deprecation: mapred.mapoutput.key.class is deprecated. Instead, use mapreduce.map.output.key.class
+2017-05-31 09:09:11,012 INFO  [main] Configuration.deprecation: mapred.job.classpath.files is deprecated. Instead, use mapreduce.job.classpath.files
+2017-05-31 09:09:11,012 INFO  [main] Configuration.deprecation: user.name is deprecated. Instead, use mapreduce.job.user.name
+2017-05-31 09:09:11,013 INFO  [main] Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2017-05-31 09:09:11,013 INFO  [main] Configuration.deprecation: mapred.cache.files.filesizes is deprecated. Instead, use mapreduce.job.cache.files.filesizes
+2017-05-31 09:09:12,279 INFO  [main] mapreduce.JobSubmitter: Submitting tokens for job: job_1496202701278_0009
+2017-05-31 09:09:14,712 INFO  [main] impl.YarnClientImpl: Submitted application application_1496202701278_0009 to ResourceManager at /0.0.0.0:8032
+2017-05-31 09:09:15,120 INFO  [main] mapreduce.Job: The url to track the job: http://http://localhost:8088/proxy/application_1496202701278_0009/
+2017-05-31 09:09:15,152 INFO  [main] mapreduce.Job: Running job: job_1496202701278_0009
+2017-05-31 09:10:14,695 INFO  [main] mapreduce.Job: Job job_1496202701278_0009 running in uber mode : false
+2017-05-31 09:10:14,752 INFO  [main] mapreduce.Job:  map 0% reduce 0%
+2017-05-31 09:10:58,162 INFO  [main] mapreduce.Job:  map 100% reduce 0%
+2017-05-31 09:10:59,288 INFO  [main] mapreduce.Job: Job job_1496202701278_0009 completed successfully
+2017-05-31 09:11:00,552 ERROR [main] sqoop.Sqoop: Got exception running Sqoop: java.lang.IllegalArgumentException: No enum constant org.apache.hadoop.mapreduce.JobCounter.MB_MILLIS_MAPS
+java.lang.IllegalArgumentException: No enum constant org.apache.hadoop.mapreduce.JobCounter.MB_MILLIS_MAPS
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at org.apache.hadoop.mapreduce.counters.FrameworkCounterGroup.valueOf(FrameworkCounterGroup.java:148)
+	at org.apache.hadoop.mapreduce.counters.FrameworkCounterGroup.findCounter(FrameworkCounterGroup.java:182)
+	at org.apache.hadoop.mapreduce.counters.AbstractCounters.findCounter(AbstractCounters.java:154)
+	at org.apache.hadoop.mapreduce.TypeConverter.fromYarn(TypeConverter.java:240)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.getJobCounters(ClientServiceDelegate.java:370)
+	at org.apache.hadoop.mapred.YARNRunner.getJobCounters(YARNRunner.java:511)
+	at org.apache.hadoop.mapreduce.Job$7.run(Job.java:756)
+	at org.apache.hadoop.mapreduce.Job$7.run(Job.java:753)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1491)
+	at org.apache.hadoop.mapreduce.Job.getCounters(Job.java:753)
+	at org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1361)
+	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1289)
+	at org.apache.sqoop.mapreduce.ExportJobBase.doSubmitJob(ExportJobBase.java:296)
+	at org.apache.sqoop.mapreduce.ExportJobBase.runJob(ExportJobBase.java:273)
+	at org.apache.sqoop.mapreduce.ExportJobBase.runExport(ExportJobBase.java:405)
+	at org.apache.sqoop.manager.SqlManager.exportTable(SqlManager.java:904)
+	at org.apache.sqoop.tool.ExportTool.exportTable(ExportTool.java:81)
+	at org.apache.sqoop.tool.ExportTool.run(ExportTool.java:100)
+	at org.apache.sqoop.Sqoop.run(Sqoop.java:143)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.sqoop.Sqoop.runSqoop(Sqoop.java:179)
+	at org.apache.sqoop.Sqoop.runTool(Sqoop.java:218)
+	at org.apache.sqoop.Sqoop.runTool(Sqoop.java:227)
+	at org.apache.sqoop.Sqoop.main(Sqoop.java:236)
+[acadgild@localhost ~]$ 
+

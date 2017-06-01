@@ -1,0 +1,1 @@
+sqoop export --connect jdbc:mysql://localhost/test --table achievedmorethan80 --username root --m 1 --export-dir /flume_data/bplacheived80/part-m-00000 --input-fields-terminated-by '\t' 
