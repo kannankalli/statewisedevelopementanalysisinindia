@@ -1,0 +1,390 @@
+410  [main] INFO  org.apache.pig.Main  - Apache Pig version 0.14.0 (r1640057) compiled Nov 16 2014, 18:02:05
+424  [main] INFO  org.apache.pig.Main  - Logging error messages to: /home/acadgild/Downloads/log/districtwiseachieved.log
+733  [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - user.name is deprecated. Instead, use mapreduce.job.user.name
+1905 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.used.genericoptionsparser is deprecated. Instead, use mapreduce.client.genericoptionsparser.used
+3777 [main] INFO  org.apache.pig.impl.util.Utils  - Default bootup file /home/acadgild/.pigbootup not found
+4616 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.default.name is deprecated. Instead, use fs.defaultFS
+4617 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+4644 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine  - Connecting to hadoop file system at: file:///
+6476 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.persist.jobstatus.hours is deprecated. Instead, use mapreduce.jobtracker.persist.jobstatus.hours
+6481 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.heartbeats.in.second is deprecated. Instead, use mapreduce.jobtracker.heartbeats.in.second
+6482 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - jobclient.completion.poll.interval is deprecated. Instead, use mapreduce.client.completion.pollinterval
+6489 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.tasks.sleeptime-before-sigkill is deprecated. Instead, use mapreduce.tasktracker.tasks.sleeptimebeforesigkill
+6490 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.http.address is deprecated. Instead, use mapreduce.jobtracker.http.address
+6490 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.skip.map.max.skip.records is deprecated. Instead, use mapreduce.map.skip.maxrecords
+6490 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - topology.node.switch.mapping.impl is deprecated. Instead, use net.topology.node.switch.mapping.impl
+6490 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.submit.replication is deprecated. Instead, use mapreduce.client.submit.file.replication
+6491 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - job.end.retry.attempts is deprecated. Instead, use mapreduce.job.end-notification.retry.attempts
+6491 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.slowstart.completed.maps is deprecated. Instead, use mapreduce.job.reduce.slowstart.completedmaps
+6491 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.profile.reduces is deprecated. Instead, use mapreduce.task.profile.reduces
+6492 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.queue.name is deprecated. Instead, use mapreduce.job.queuename
+6500 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.jobhistory.lru.cache.size is deprecated. Instead, use mapreduce.jobtracker.jobhistory.lru.cache.size
+6503 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.skip.attempts.to.start.skipping is deprecated. Instead, use mapreduce.task.skip.start.attempts
+6508 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.expiry.interval is deprecated. Instead, use mapreduce.jobtracker.expire.trackers.interval
+6508 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - keep.failed.task.files is deprecated. Instead, use mapreduce.task.files.preserve.failedtasks
+6508 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.map.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.map.tasks.maximum
+6509 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.max.tracker.failures is deprecated. Instead, use mapreduce.job.maxtaskfailures.per.tracker
+6509 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.child.log.level is deprecated. Instead, use mapreduce.map.log.level
+6509 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.local.dir is deprecated. Instead, use mapreduce.cluster.local.dir
+6509 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.child.tmp is deprecated. Instead, use mapreduce.task.tmp.dir
+6509 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.local.dir.minspacestart is deprecated. Instead, use mapreduce.tasktracker.local.dir.minspacestart
+6514 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - tasktracker.http.threads is deprecated. Instead, use mapreduce.tasktracker.http.threads
+6514 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.tasks.speculative.execution is deprecated. Instead, use mapreduce.map.speculative
+6515 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.restart.recover is deprecated. Instead, use mapreduce.jobtracker.restart.recover
+6519 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.taskScheduler is deprecated. Instead, use mapreduce.jobtracker.taskscheduler
+6519 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.jobtracker.split.metainfo.maxsize is deprecated. Instead, use mapreduce.job.split.metainfo.maxsize
+6519 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.timeout is deprecated. Instead, use mapreduce.task.timeout
+6519 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+6520 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.tracker.report.address is deprecated. Instead, use mapreduce.tasktracker.report.address
+6520 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.profile is deprecated. Instead, use mapreduce.task.profile
+6520 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.reduce.markreset.buffer.percent is deprecated. Instead, use mapreduce.reduce.markreset.buffer.percent
+6520 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.merge.recordsBeforeProgress is deprecated. Instead, use mapreduce.task.merge.progress.records
+6525 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.reduce.input.buffer.percent is deprecated. Instead, use mapreduce.reduce.input.buffer.percent
+6525 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.shuffle.input.buffer.percent is deprecated. Instead, use mapreduce.reduce.shuffle.input.buffer.percent
+6525 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - job.end.retry.interval is deprecated. Instead, use mapreduce.job.end-notification.retry.interval
+6525 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.dns.nameserver is deprecated. Instead, use mapreduce.tasktracker.dns.nameserver
+6526 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.speculative.execution.slowTaskThreshold is deprecated. Instead, use mapreduce.job.speculative.slowtaskthreshold
+6532 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.df.interval is deprecated. Instead, use fs.df.interval
+6533 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.temp.dir is deprecated. Instead, use mapreduce.cluster.temp.dir
+6533 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.acls.enabled is deprecated. Instead, use mapreduce.cluster.acls.enabled
+6533 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.spill.percent is deprecated. Instead, use mapreduce.map.sort.spill.percent
+6540 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.instrumentation is deprecated. Instead, use mapreduce.tasktracker.instrumentation
+6540 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.handler.count is deprecated. Instead, use mapreduce.jobtracker.handler.count
+6540 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+6541 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.shuffle.merge.percent is deprecated. Instead, use mapreduce.reduce.shuffle.merge.percent
+6541 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.committer.job.setup.cleanup.needed is deprecated. Instead, use mapreduce.job.committer.setup.cleanup.needed
+6541 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.system.dir is deprecated. Instead, use mapreduce.jobtracker.system.dir
+6541 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.retiredjobs.cache.size is deprecated. Instead, use mapreduce.jobtracker.retiredjobs.cache.size
+6541 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.instrumentation is deprecated. Instead, use mapreduce.jobtracker.instrumentation
+6541 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.job.counters.limit is deprecated. Instead, use mapreduce.job.counters.max
+6548 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.skip.reduce.max.skip.groups is deprecated. Instead, use mapreduce.reduce.skip.maxgroups
+6549 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.maxtasks.per.job is deprecated. Instead, use mapreduce.jobtracker.maxtasks.perjob
+6550 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.tracker.task-controller is deprecated. Instead, use mapreduce.tasktracker.taskcontroller
+6550 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+6550 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - jobclient.progress.monitor.poll.interval is deprecated. Instead, use mapreduce.client.progressmonitor.pollinterval
+6551 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.max.attempts is deprecated. Instead, use mapreduce.map.maxattempts
+6551 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.factor is deprecated. Instead, use mapreduce.task.io.sort.factor
+6551 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.profile.maps is deprecated. Instead, use mapreduce.task.profile.maps
+6551 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.shuffle.read.timeout is deprecated. Instead, use mapreduce.reduce.shuffle.read.timeout
+6551 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.indexcache.mb is deprecated. Instead, use mapreduce.tasktracker.indexcache.mb
+6552 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.max.tracker.blacklists is deprecated. Instead, use mapreduce.jobtracker.tasktracker.maxblacklists
+6557 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.mb is deprecated. Instead, use mapreduce.task.io.sort.mb
+6557 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - topology.script.number.args is deprecated. Instead, use net.topology.script.number.args
+6558 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.dns.interface is deprecated. Instead, use mapreduce.tasktracker.dns.interface
+6560 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.persist.jobstatus.active is deprecated. Instead, use mapreduce.jobtracker.persist.jobstatus.active
+6560 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+6560 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.cache.levels is deprecated. Instead, use mapreduce.jobtracker.taskcache.levels
+6561 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+6561 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+6562 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+6562 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.speculative.execution.slowNodeThreshold is deprecated. Instead, use mapreduce.job.speculative.slownodethreshold
+6562 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.persist.jobstatus.dir is deprecated. Instead, use mapreduce.jobtracker.persist.jobstatus.dir
+6562 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.tracker.http.address is deprecated. Instead, use mapreduce.tasktracker.http.address
+6563 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.taskmemorymanager.monitoring-interval is deprecated. Instead, use mapreduce.tasktracker.taskmemorymanager.monitoringinterval
+6570 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.inmem.merge.threshold is deprecated. Instead, use mapreduce.reduce.merge.inmem.threshold
+6570 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.umaskmode is deprecated. Instead, use fs.permissions.umask-mode
+6570 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.output.compression.codec is deprecated. Instead, use mapreduce.map.output.compress.codec
+6570 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.child.log.level is deprecated. Instead, use mapreduce.reduce.log.level
+6574 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.healthChecker.interval is deprecated. Instead, use mapreduce.tasktracker.healthchecker.interval
+6575 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.output.compression.codec is deprecated. Instead, use mapreduce.output.fileoutputformat.compress.codec
+6575 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.speculative.execution.speculativeCap is deprecated. Instead, use mapreduce.job.speculative.speculativecap
+6575 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+6576 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.shuffle.connect.timeout is deprecated. Instead, use mapreduce.reduce.shuffle.connect.timeout
+6582 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+6583 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - jobclient.output.filter is deprecated. Instead, use mapreduce.client.output.filter
+6583 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.job.history.block.size is deprecated. Instead, use mapreduce.jobtracker.jobhistory.block.size
+6588 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.output.compression.type is deprecated. Instead, use mapreduce.output.fileoutputformat.compress.type
+6588 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+6588 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.default.name is deprecated. Instead, use fs.defaultFS
+6588 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.max.attempts is deprecated. Instead, use mapreduce.reduce.maxattempts
+6589 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.healthChecker.script.timeout is deprecated. Instead, use mapreduce.tasktracker.healthchecker.script.timeout
+6594 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.reduce.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.reduce.tasks.maximum
+6594 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.userlog.limit.kb is deprecated. Instead, use mapreduce.task.userlog.limit.kb
+6594 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.userlog.retain.hours is deprecated. Instead, use mapreduce.job.userlog.retain.hours
+6595 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.local.dir.minspacekill is deprecated. Instead, use mapreduce.tasktracker.local.dir.minspacekill
+10954 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.job.counters.limit is deprecated. Instead, use mapreduce.job.counters.max
+10955 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.factor is deprecated. Instead, use mapreduce.task.io.sort.factor
+10955 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.mb is deprecated. Instead, use mapreduce.task.io.sort.mb
+10957 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+10957 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.default.name is deprecated. Instead, use fs.defaultFS
+12278 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.job.counters.limit is deprecated. Instead, use mapreduce.job.counters.max
+12282 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.factor is deprecated. Instead, use mapreduce.task.io.sort.factor
+12286 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.mb is deprecated. Instead, use mapreduce.task.io.sort.mb
+12293 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+12294 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.default.name is deprecated. Instead, use fs.defaultFS
+12799 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.textoutputformat.separator is deprecated. Instead, use mapreduce.output.textoutputformat.separator
+13219 [main] INFO  org.apache.pig.tools.pigstats.ScriptState  - Pig features used in the script: FILTER
+13737 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.default.name is deprecated. Instead, use fs.defaultFS
+14361 [main] INFO  org.apache.pig.newplan.logical.optimizer.LogicalPlanOptimizer  - {RULES_ENABLED=[AddForEach, ColumnMapKeyPrune, ConstantCalculator, GroupByConstParallelSetter, LimitOptimizer, LoadTypeCastInserter, MergeFilter, MergeForEach, PartitionFilterOptimizer, PredicatePushdownOptimizer, PushDownForEachFlatten, PushUpFilter, SplitFilter, StreamTypeCastInserter]}
+15692 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler  - File concatenation threshold: 100 optimistic? false
+15945 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer  - MR plan size before optimization: 1
+15945 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer  - MR plan size after optimization: 1
+16247 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.default.name is deprecated. Instead, use fs.defaultFS
+16396 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation  - session.id is deprecated. Instead, use dfs.metrics.session-id
+16412 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics  - Initializing JVM Metrics with processName=JobTracker, sessionId=
+18560 [main] INFO  org.apache.pig.tools.pigstats.mapreduce.MRScriptState  - Pig script settings are added to the job
+18694 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler  - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+19408 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler  - Setting up single store job
+19565 [main] INFO  org.apache.pig.data.SchemaTupleFrontend  - Key [pig.schematuple] is false, will not generate code.
+19566 [main] INFO  org.apache.pig.data.SchemaTupleFrontend  - Starting process to move generated code to distributed cacche
+19566 [main] INFO  org.apache.pig.data.SchemaTupleFrontend  - Distributed cache not supported or needed in local mode. Setting key [pig.schematuple.local.dir] with code temp directory: /tmp/1496223036104-0
+20552 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - 1 map-reduce job(s) waiting for submission.
+20758 [JobControl] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics  - Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+21049 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.name is deprecated. Instead, use mapreduce.job.name
+21056 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.map.class is deprecated. Instead, use mapreduce.job.map.class
+21056 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+21057 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.inputformat.class is deprecated. Instead, use mapreduce.job.inputformat.class
+21057 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.outputformat.class is deprecated. Instead, use mapreduce.job.outputformat.class
+21061 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.job.counters.limit is deprecated. Instead, use mapreduce.job.counters.max
+21062 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.factor is deprecated. Instead, use mapreduce.task.io.sort.factor
+21062 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+21063 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.mb is deprecated. Instead, use mapreduce.task.io.sort.mb
+21067 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+21200 [JobControl] WARN  org.apache.hadoop.util.NativeCodeLoader  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24116 [JobControl] WARN  org.apache.hadoop.mapreduce.JobSubmitter  - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+24493 [JobControl] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat  - Total input paths to process : 1
+24493 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil  - Total input paths to process : 1
+24760 [JobControl] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil  - Total input paths (combined) to process : 1
+25298 [JobControl] INFO  org.apache.hadoop.mapreduce.JobSubmitter  - number of splits:1
+25517 [JobControl] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.working.dir is deprecated. Instead, use mapreduce.job.working.dir
+26832 [JobControl] INFO  org.apache.hadoop.mapreduce.JobSubmitter  - Submitting tokens for job: job_local1048958883_0001
+27308 [JobControl] WARN  org.apache.hadoop.conf.Configuration  - file:/tmp/hadoop-acadgild/mapred/staging/acadgild1048958883/.staging/job_local1048958883_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+27365 [JobControl] WARN  org.apache.hadoop.conf.Configuration  - file:/tmp/hadoop-acadgild/mapred/staging/acadgild1048958883/.staging/job_local1048958883_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+29013 [JobControl] WARN  org.apache.hadoop.conf.Configuration  - file:/tmp/hadoop-acadgild/mapred/local/localRunner/acadgild/job_local1048958883_0001/job_local1048958883_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+29063 [JobControl] WARN  org.apache.hadoop.conf.Configuration  - file:/tmp/hadoop-acadgild/mapred/local/localRunner/acadgild/job_local1048958883_0001/job_local1048958883_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+29156 [JobControl] INFO  org.apache.hadoop.mapreduce.Job  - The url to track the job: http://localhost:8080/
+29421 [Thread-13] INFO  org.apache.hadoop.mapred.LocalJobRunner  - OutputCommitter set in config null
+29660 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - HadoopJobId: job_local1048958883_0001
+29660 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - Processing aliases S,SOCIAL_DATA,SOCIAL_DATA_3,SOCIAL_DATA_FILTERED
+29661 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - detailed locations: M: S[5,4],S[-1,-1],SOCIAL_DATA[8,14],SOCIAL_DATA_FILTERED[13,23],SOCIAL_DATA_3[17,16] C:  R: 
+29713 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - 0% complete
+29715 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - Running jobs are [job_local1048958883_0001]
+29719 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.textoutputformat.separator is deprecated. Instead, use mapreduce.output.textoutputformat.separator
+29727 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.persist.jobstatus.hours is deprecated. Instead, use mapreduce.jobtracker.persist.jobstatus.hours
+29733 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.heartbeats.in.second is deprecated. Instead, use mapreduce.jobtracker.heartbeats.in.second
+29733 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.name is deprecated. Instead, use mapreduce.job.name
+29733 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - jobclient.completion.poll.interval is deprecated. Instead, use mapreduce.client.completion.pollinterval
+29733 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.tasks.sleeptime-before-sigkill is deprecated. Instead, use mapreduce.tasktracker.tasks.sleeptimebeforesigkill
+29733 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.http.address is deprecated. Instead, use mapreduce.jobtracker.http.address
+29734 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - topology.node.switch.mapping.impl is deprecated. Instead, use net.topology.node.switch.mapping.impl
+29734 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.skip.map.max.skip.records is deprecated. Instead, use mapreduce.map.skip.maxrecords
+29734 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.submit.replication is deprecated. Instead, use mapreduce.client.submit.file.replication
+29734 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - job.end.retry.attempts is deprecated. Instead, use mapreduce.job.end-notification.retry.attempts
+29734 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+29734 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.slowstart.completed.maps is deprecated. Instead, use mapreduce.job.reduce.slowstart.completedmaps
+29734 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.profile.reduces is deprecated. Instead, use mapreduce.task.profile.reduces
+29735 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.queue.name is deprecated. Instead, use mapreduce.job.queuename
+29738 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.jobhistory.lru.cache.size is deprecated. Instead, use mapreduce.jobtracker.jobhistory.lru.cache.size
+29738 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.skip.attempts.to.start.skipping is deprecated. Instead, use mapreduce.task.skip.start.attempts
+29738 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.expiry.interval is deprecated. Instead, use mapreduce.jobtracker.expire.trackers.interval
+29738 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - keep.failed.task.files is deprecated. Instead, use mapreduce.task.files.preserve.failedtasks
+29739 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.map.class is deprecated. Instead, use mapreduce.job.map.class
+29739 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+29739 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.map.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.map.tasks.maximum
+29739 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.max.tracker.failures is deprecated. Instead, use mapreduce.job.maxtaskfailures.per.tracker
+29739 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.child.log.level is deprecated. Instead, use mapreduce.map.log.level
+29740 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.local.dir is deprecated. Instead, use mapreduce.cluster.local.dir
+29740 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.child.tmp is deprecated. Instead, use mapreduce.task.tmp.dir
+29740 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.local.dir.minspacestart is deprecated. Instead, use mapreduce.tasktracker.local.dir.minspacestart
+29740 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.used.genericoptionsparser is deprecated. Instead, use mapreduce.client.genericoptionsparser.used
+29740 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - tasktracker.http.threads is deprecated. Instead, use mapreduce.tasktracker.http.threads
+29740 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.tasks.speculative.execution is deprecated. Instead, use mapreduce.map.speculative
+29740 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.restart.recover is deprecated. Instead, use mapreduce.jobtracker.restart.recover
+29740 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.taskScheduler is deprecated. Instead, use mapreduce.jobtracker.taskscheduler
+29741 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.jobtracker.split.metainfo.maxsize is deprecated. Instead, use mapreduce.job.split.metainfo.maxsize
+29747 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.timeout is deprecated. Instead, use mapreduce.task.timeout
+29747 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - hadoop.native.lib is deprecated. Instead, use io.native.lib.available
+29747 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.tracker.report.address is deprecated. Instead, use mapreduce.tasktracker.report.address
+29747 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.profile is deprecated. Instead, use mapreduce.task.profile
+29747 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.inputformat.class is deprecated. Instead, use mapreduce.job.inputformat.class
+29747 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.reduce.markreset.buffer.percent is deprecated. Instead, use mapreduce.reduce.markreset.buffer.percent
+29747 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.merge.recordsBeforeProgress is deprecated. Instead, use mapreduce.task.merge.progress.records
+29747 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.reduce.input.buffer.percent is deprecated. Instead, use mapreduce.reduce.input.buffer.percent
+29748 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.shuffle.input.buffer.percent is deprecated. Instead, use mapreduce.reduce.shuffle.input.buffer.percent
+29749 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - job.end.retry.interval is deprecated. Instead, use mapreduce.job.end-notification.retry.interval
+29750 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.dns.nameserver is deprecated. Instead, use mapreduce.tasktracker.dns.nameserver
+29750 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.speculative.execution.slowTaskThreshold is deprecated. Instead, use mapreduce.job.speculative.slowtaskthreshold
+29750 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.df.interval is deprecated. Instead, use fs.df.interval
+29750 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.temp.dir is deprecated. Instead, use mapreduce.cluster.temp.dir
+29750 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.outputformat.class is deprecated. Instead, use mapreduce.job.outputformat.class
+29750 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.acls.enabled is deprecated. Instead, use mapreduce.cluster.acls.enabled
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.spill.percent is deprecated. Instead, use mapreduce.map.sort.spill.percent
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.instrumentation is deprecated. Instead, use mapreduce.tasktracker.instrumentation
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.handler.count is deprecated. Instead, use mapreduce.jobtracker.handler.count
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.shuffle.merge.percent is deprecated. Instead, use mapreduce.reduce.shuffle.merge.percent
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.committer.job.setup.cleanup.needed is deprecated. Instead, use mapreduce.job.committer.setup.cleanup.needed
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.system.dir is deprecated. Instead, use mapreduce.jobtracker.system.dir
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.retiredjobs.cache.size is deprecated. Instead, use mapreduce.jobtracker.retiredjobs.cache.size
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.instrumentation is deprecated. Instead, use mapreduce.jobtracker.instrumentation
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.job.counters.limit is deprecated. Instead, use mapreduce.job.counters.max
+29751 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.skip.reduce.max.skip.groups is deprecated. Instead, use mapreduce.reduce.skip.maxgroups
+29752 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.maxtasks.per.job is deprecated. Instead, use mapreduce.jobtracker.maxtasks.perjob
+29752 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.tracker.task-controller is deprecated. Instead, use mapreduce.tasktracker.taskcontroller
+29752 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.parallel.copies is deprecated. Instead, use mapreduce.reduce.shuffle.parallelcopies
+29753 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - jobclient.progress.monitor.poll.interval is deprecated. Instead, use mapreduce.client.progressmonitor.pollinterval
+29756 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.max.attempts is deprecated. Instead, use mapreduce.map.maxattempts
+29756 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.factor is deprecated. Instead, use mapreduce.task.io.sort.factor
+29756 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.profile.maps is deprecated. Instead, use mapreduce.task.profile.maps
+29756 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.shuffle.read.timeout is deprecated. Instead, use mapreduce.reduce.shuffle.read.timeout
+29756 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+29756 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.indexcache.mb is deprecated. Instead, use mapreduce.tasktracker.indexcache.mb
+29760 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.max.tracker.blacklists is deprecated. Instead, use mapreduce.jobtracker.tasktracker.maxblacklists
+29760 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.mb is deprecated. Instead, use mapreduce.task.io.sort.mb
+29761 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - topology.script.number.args is deprecated. Instead, use net.topology.script.number.args
+29766 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.dns.interface is deprecated. Instead, use mapreduce.tasktracker.dns.interface
+29766 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.persist.jobstatus.active is deprecated. Instead, use mapreduce.jobtracker.persist.jobstatus.active
+29766 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+29766 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.cache.levels is deprecated. Instead, use mapreduce.jobtracker.taskcache.levels
+29766 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+29767 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+29767 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+29767 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.speculative.execution.slowNodeThreshold is deprecated. Instead, use mapreduce.job.speculative.slownodethreshold
+29767 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.tracker.persist.jobstatus.dir is deprecated. Instead, use mapreduce.jobtracker.persist.jobstatus.dir
+29767 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.tracker.http.address is deprecated. Instead, use mapreduce.tasktracker.http.address
+29772 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.taskmemorymanager.monitoring-interval is deprecated. Instead, use mapreduce.tasktracker.taskmemorymanager.monitoringinterval
+29773 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.inmem.merge.threshold is deprecated. Instead, use mapreduce.reduce.merge.inmem.threshold
+29773 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.umaskmode is deprecated. Instead, use fs.permissions.umask-mode
+29773 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.map.output.compression.codec is deprecated. Instead, use mapreduce.map.output.compress.codec
+29774 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.child.log.level is deprecated. Instead, use mapreduce.reduce.log.level
+29774 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.healthChecker.interval is deprecated. Instead, use mapreduce.tasktracker.healthchecker.interval
+29774 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.output.compression.codec is deprecated. Instead, use mapreduce.output.fileoutputformat.compress.codec
+29774 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.speculative.execution.speculativeCap is deprecated. Instead, use mapreduce.job.speculative.speculativecap
+29774 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+29774 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.shuffle.connect.timeout is deprecated. Instead, use mapreduce.reduce.shuffle.connect.timeout
+29774 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+29774 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - jobclient.output.filter is deprecated. Instead, use mapreduce.client.output.filter
+29775 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.jobtracker.job.history.block.size is deprecated. Instead, use mapreduce.jobtracker.jobhistory.block.size
+29775 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.output.compression.type is deprecated. Instead, use mapreduce.output.fileoutputformat.compress.type
+29779 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+29779 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.reduce.max.attempts is deprecated. Instead, use mapreduce.reduce.maxattempts
+29779 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.default.name is deprecated. Instead, use fs.defaultFS
+29779 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.healthChecker.script.timeout is deprecated. Instead, use mapreduce.tasktracker.healthchecker.script.timeout
+29779 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tasktracker.reduce.tasks.maximum is deprecated. Instead, use mapreduce.tasktracker.reduce.tasks.maximum
+29779 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.userlog.limit.kb is deprecated. Instead, use mapreduce.task.userlog.limit.kb
+29779 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.userlog.retain.hours is deprecated. Instead, use mapreduce.job.userlog.retain.hours
+29779 [Thread-13] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.local.dir.minspacekill is deprecated. Instead, use mapreduce.tasktracker.local.dir.minspacekill
+29813 [Thread-13] INFO  org.apache.hadoop.mapred.LocalJobRunner  - OutputCommitter is org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigOutputCommitter
+30663 [Thread-13] INFO  org.apache.hadoop.mapred.LocalJobRunner  - Waiting for map tasks
+30670 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.LocalJobRunner  - Starting task: attempt_local1048958883_0001_m_000000_0
+31108 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+31110 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.job.id is deprecated. Instead, use mapreduce.job.id
+31110 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - user.name is deprecated. Instead, use mapreduce.job.user.name
+31111 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+31111 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+31111 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+31160 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.work.output.dir is deprecated. Instead, use mapreduce.task.output.dir
+31356 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.Task  -  Using ResourceCalculatorProcessTree : [ ]
+31429 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.MapTask  - Processing split: Number of splits :1
+Total Length = 717414
+Input split[0]:
+   Length = 717414
+   ClassName: org.apache.hadoop.mapreduce.lib.input.FileSplit
+   Locations:
+
+-----------------------
+
+31561 [LocalJobRunner Map Task Executor #0] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigRecordReader  - Current split being processed file:/flume_data/StatewiseDistrictwisePhysicalProgress.xml:0+717414
+31615 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.replication.considerLoad is deprecated. Instead, use dfs.namenode.replication.considerLoad
+31616 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.block.size is deprecated. Instead, use dfs.blocksize
+31616 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.permissions is deprecated. Instead, use dfs.permissions.enabled
+31616 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.access.time.precision is deprecated. Instead, use dfs.namenode.accesstime.precision
+31616 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.https.client.keystore.resource is deprecated. Instead, use dfs.client.https.keystore.resource
+31616 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.write.packet.size is deprecated. Instead, use dfs.client-write-packet-size
+31617 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.backup.http.address is deprecated. Instead, use dfs.namenode.backup.http-address
+31617 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.safemode.threshold.pct is deprecated. Instead, use dfs.namenode.safemode.threshold-pct
+31617 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.datanode.max.xcievers is deprecated. Instead, use dfs.datanode.max.transfer.threads
+31617 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.replication.min is deprecated. Instead, use dfs.namenode.replication.min
+31617 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.name.dir is deprecated. Instead, use dfs.namenode.name.dir
+31617 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.checkpoint.period is deprecated. Instead, use dfs.namenode.checkpoint.period
+31617 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.safemode.extension is deprecated. Instead, use dfs.namenode.safemode.extension
+31617 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.secondary.http.address is deprecated. Instead, use dfs.namenode.secondary.http-address
+31623 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.data.dir is deprecated. Instead, use dfs.datanode.data.dir
+31624 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.name.dir.restore is deprecated. Instead, use dfs.namenode.name.dir.restore
+31624 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+31624 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapreduce.job.counters.limit is deprecated. Instead, use mapreduce.job.counters.max
+31625 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.factor is deprecated. Instead, use mapreduce.task.io.sort.factor
+31625 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.sort.mb is deprecated. Instead, use mapreduce.task.io.sort.mb
+31631 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.http.address is deprecated. Instead, use dfs.namenode.http-address
+31631 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - mapred.working.dir is deprecated. Instead, use mapreduce.job.working.dir
+31631 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.permissions.supergroup is deprecated. Instead, use dfs.permissions.superusergroup
+31632 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.https.address is deprecated. Instead, use dfs.namenode.https-address
+31632 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.backup.address is deprecated. Instead, use dfs.namenode.backup.address
+31632 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.checkpoint.edits.dir is deprecated. Instead, use dfs.namenode.checkpoint.edits.dir
+31632 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - io.bytes.per.checksum is deprecated. Instead, use dfs.bytes-per-checksum
+31632 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.checkpoint.dir is deprecated. Instead, use dfs.namenode.checkpoint.dir
+31632 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.balance.bandwidthPerSec is deprecated. Instead, use dfs.datanode.balance.bandwidthPerSec
+31633 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.https.need.client.auth is deprecated. Instead, use dfs.client.https.need-auth
+31633 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - fs.default.name is deprecated. Instead, use fs.defaultFS
+31633 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.max.objects is deprecated. Instead, use dfs.namenode.max.objects
+31637 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.name.edits.dir is deprecated. Instead, use dfs.namenode.edits.dir
+31638 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.conf.Configuration.deprecation  - dfs.replication.interval is deprecated. Instead, use dfs.namenode.replication.interval
+31850 [LocalJobRunner Map Task Executor #0] INFO  org.apache.pig.data.SchemaTupleBackend  - Key [pig.schematuple] was not set... will not generate code.
+32103 [LocalJobRunner Map Task Executor #0] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigMapOnly$Map  - Aliases being processed per job phase (AliasName[line,offset]): M: S[5,4],S[-1,-1],SOCIAL_DATA[8,14],SOCIAL_DATA_FILTERED[13,23],SOCIAL_DATA_3[17,16] C:  R: 
+37109 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+37224 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - 50% complete
+37225 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - Running jobs are [job_local1048958883_0001]
+40120 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+43122 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+46125 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+49127 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+52132 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+55141 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+58148 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+61152 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+64154 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+67162 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+70165 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+73167 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+76172 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+79174 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+82182 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+85186 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+88192 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+91199 [communication thread] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+92531 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+92532 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.Task  - Task:attempt_local1048958883_0001_m_000000_0 is done. And is in the process of committing
+92618 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map > map
+92623 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.Task  - Task attempt_local1048958883_0001_m_000000_0 is allowed to commit now
+92679 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter  - Saved output of task 'attempt_local1048958883_0001_m_000000_0' to file:/flume_data/districtwiseachieved/_temporary/0/task_local1048958883_0001_m_000000
+92688 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.LocalJobRunner  - map
+92688 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.Task  - Task 'attempt_local1048958883_0001_m_000000_0' done.
+92689 [LocalJobRunner Map Task Executor #0] INFO  org.apache.hadoop.mapred.LocalJobRunner  - Finishing task: attempt_local1048958883_0001_m_000000_0
+92690 [Thread-13] INFO  org.apache.hadoop.mapred.LocalJobRunner  - Map task executor complete.
+93002 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics  - Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+93099 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics  - Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+93118 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics  - Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+93811 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - 100% complete
+93841 [main] INFO  org.apache.pig.tools.pigstats.mapreduce.SimplePigStats  - Script Statistics: 
+
+HadoopVersion	PigVersion	UserId	StartedAt	FinishedAt	Features
+2.2.0	0.14.0	acadgild	2017-05-31 05:30:34	2017-05-31 05:31:50	FILTER
+
+Success!
+
+Job Stats (time in seconds):
+JobId	Maps	Reduces	MaxMapTime	MinMapTime	AvgMapTime	MedianMapTime	MaxReduceTime	MinReduceTime	AvgReduceTime	MedianReducetime	Alias	Feature	Outputs
+job_local1048958883_0001	1	0	n/a	n/a	n/a	n/a	0	0	0	0	S,SOCIAL_DATA,SOCIAL_DATA_3,SOCIAL_DATA_FILTERED	MAP_ONLY	/flume_data/districtwiseachieved,
+
+Input(s):
+Successfully read 607 records from: "/flume_data/StatewiseDistrictwisePhysicalProgress.xml"
+
+Output(s):
+Successfully stored 176 records in: "/flume_data/districtwiseachieved"
+
+Counters:
+Total records written : 176
+Total bytes written : 0
+Spillable Memory Manager spill count : 0
+Total bags proactively spilled: 0
+Total records proactively spilled: 0
+
+Job DAG:
+job_local1048958883_0001
+
+
+93863 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics  - Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+93877 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics  - Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+93884 [main] INFO  org.apache.hadoop.metrics.jvm.JvmMetrics  - Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+94072 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher  - Success!
+94332 [main] INFO  org.apache.pig.Main  - Pig script completed in 1 minute, 37 seconds and 337 milliseconds (97337 ms)
